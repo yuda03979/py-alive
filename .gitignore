@@ -12,3 +12,4 @@ wheels/
 # Ide
 .idea/
 uv.lock
+.env

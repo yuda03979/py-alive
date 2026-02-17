@@ -1,8 +1,9 @@
 [project]
 name = "py-alive"
-version = "0.0.2"
+version = "0.1.1"
 description = "Experimental aware runtime framework for Python."
-readme = "README.md"
+license-files = ["LICENSE"]
+readme = { file = "README.md", content-type = "text/markdown" }
 authors = [
     { name = "yuda", email = "yuda03979@gmail.com" }
 ]

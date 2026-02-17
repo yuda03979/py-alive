@@ -1,5 +1,3 @@
-from src.py_alive import AliveTagfrom src.py_alive import alive_tool
-
 # PyAlive
 
 Experimental runtime aware framework for Python.
