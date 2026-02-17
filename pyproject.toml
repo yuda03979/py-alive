@@ -1,13 +1,17 @@
 [project]
 name = "py-alive"
-version = "0.0.1"
+version = "0.0.2"
 description = "Experimental aware runtime framework for Python."
 readme = "README.md"
 authors = [
     { name = "yuda", email = "yuda03979@gmail.com" }
 ]
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic~=2.12.5",
+    "pydantic-ai~=1.60.0",
+    "pydantic-settings~=2.13.0",
+]
 
 [project.scripts]
 py-alive = "py_alive:main"

@@ -11,3 +11,4 @@ wheels/
 
 # Ide
 .idea/
+uv.lock
